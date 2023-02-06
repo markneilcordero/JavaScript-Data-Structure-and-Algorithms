@@ -1,4 +1,8 @@
-const points = [40, 100, 1, 5, 25, 10];
+let points = [];
+for (let x = 1; x <= 500; x++) {
+	points.push(x);
+}
+
 console.log(points);
 
 for (let i = points.length-1; i > 0; i--) {
